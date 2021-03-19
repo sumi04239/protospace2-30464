@@ -11,7 +11,7 @@
 | occupation | text   | null: false |
 | position   | text   | null: false |
 
-### Association
+## Association
 
 - has_many : prototypes
 - has_many : comments
@@ -25,7 +25,7 @@
 | concept    | text       | null: false |
 | user       | references | foreign_key |
 
-### Association
+## Association
 
 - belongs_to :user
 - has_many :comments
@@ -38,7 +38,7 @@
 | user      | references | foreign_key: true        |
 | prototype | references | foreign_key: true        |
 
-### Association
+## Association
 
 - belongs_to :user
 - belongs_to :prototype
